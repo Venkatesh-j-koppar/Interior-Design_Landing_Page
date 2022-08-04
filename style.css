@@ -14,6 +14,10 @@ body{
     height: 98vh;   
 }
 
+.menu-bar{
+    display: none;
+}
+
 .navbar-container{
     /* background-color: aquamarine; */
     
@@ -192,4 +196,113 @@ border-bottom: 2px solid #fff;
     width:60px;
     height: 2px;
     background-color: #fff;
+}
+
+@media screen and (max-width:1050px) {
+    body{
+    
+    }
+
+    .navbar-container{
+        margin: 2vh 2vw;
+    }
+
+    .logo>img{
+        width: 100px;
+    }
+
+    .box1{
+        width: 250px;
+       
+    }
+    .list-item{
+        margin:15px 20px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+   
+    .list{
+        display: none;
+    }
+    .call-us-section{
+        display: none;
+    }
+    
+    .menu-bar{
+        display: inline-block;
+    }
+    .menu-bar>img{
+        margin-top: 2vh;
+        width:30px;
+        height: 30px;
+    }
+
+    .main-left{
+        position: absolute;
+        bottom: 0%;
+        top: 60%;
+
+        margin-top: 5px;
+        padding: 0px;
+        display: flex;
+        justify-content: space-between;
+        width: 98vw;
+
+    }
+
+    .main-left>h1{
+        font-size: 35px;
+        padding: 0px;
+        
+    }
+
+    .main-left>button{
+        width:150px;
+        height: 70px;
+        border-radius:10px;
+        color: #063c5a;
+        border: none;
+        background-color: #d5d5d5;
+    }
+  
+    .box1{
+        
+        top:15vh;
+        left: 35vw;
+    
+        width: 220px;
+        height: 150px;
+       
+    
+    }
+
+    .part1>p{
+        font-size: 13px;
+        
+    }
+
+    .box1-svg{
+        width:100px;
+        height: 30px;
+    }
+
+    .box1-svg>img{
+        padding: 5px;
+        height: 20px;
+    }
+
+    .box2{
+        top:40vh;
+    left: 2vw;
+    
+        width: 230px;
+        height: 130px;
+       
+    
+    }
+
+
+
 }

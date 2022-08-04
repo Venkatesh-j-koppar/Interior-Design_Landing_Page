@@ -222,7 +222,11 @@ border-bottom: 2px solid #fff;
 }
 
 @media screen and (max-width:600px) {
-   
+    body{
+       
+        overflow: hidden;
+        
+    }
     .list{
         display: none;
     }

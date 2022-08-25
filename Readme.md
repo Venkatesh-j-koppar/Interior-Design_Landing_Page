@@ -15,6 +15,9 @@ Was able to use concepts of css like selectors which are used to target a partic
 
 ![image](./Output.png)
 
+## Mobile View
+![mobileimage](./Mobilescreenshot.png)
+
 ## Time taken to complete this project:
 2.5 hrs
 
